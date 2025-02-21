@@ -9,6 +9,6 @@
     },
     "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
   },
-  "postCreateCommand": "git lfs install",
-  "postStartCommand": "git lfs pull"
+  // "postCreateCommand": "git lfs install",
+  // "postStartCommand": "git lfs pull"
 }
