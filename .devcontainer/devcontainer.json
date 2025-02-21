@@ -1,7 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:1-ubuntu-24.04",
   "features": {
-    "ghcr.io/devcontainers/features/git-lfs:1": {}
+    "ghcr.io/devcontainers/features/git-lfs:1": {
+      "autoPull": false,
+    }
   },
   "postCreateCommand": "git lfs install"
 }
