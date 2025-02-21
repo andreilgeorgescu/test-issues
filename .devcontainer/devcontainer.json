@@ -3,5 +3,5 @@
   "features": {
     "ghcr.io/devcontainers/features/git-lfs:1": {}
   },
-  // "postCreateCommand": "git lfs install"
+  "postCreateCommand": "git lfs install"
 }
