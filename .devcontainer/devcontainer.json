@@ -5,5 +5,6 @@
       "autoPull": false
     }
   },
-  "postCreateCommand": "git lfs install && git lfs pull"
+  "postCreateCommand": "git lfs install",
+  "postStartCommand": "git lfs pull"
 }
