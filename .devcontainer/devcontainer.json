@@ -3,7 +3,11 @@
   "features": {
     "ghcr.io/devcontainers/features/git-lfs:1": {
       "autoPull": false
-    }
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22"
+    },
+    "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
   },
   "postCreateCommand": "git lfs install",
   "postStartCommand": "git lfs pull"
