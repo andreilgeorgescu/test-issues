@@ -7,7 +7,7 @@
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
     },
-    "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
+    // "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
   },
   // "postCreateCommand": "git lfs install",
   // "postStartCommand": "git lfs pull"
