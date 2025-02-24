@@ -1,15 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:1-ubuntu-24.04",
   "features": {
-    "ghcr.io/devcontainers-extra/features/git-lfs:1": {},
-    // "ghcr.io/devcontainers/features/git-lfs:1": { // Installs git-lfs software on system, not hooks https://github.com/devcontainers/features/tree/main/src/git-lfs
-    //   "autoPull": false // By default autopulls. No idea why because hooks aren't installed yet so it does nothing.
-    // },
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
     },
-    // "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
-  },
-  // "postCreateCommand": "git lfs install", // Installs git lfs hooks
-  // "postStartCommand": "git lfs pull" // Pulls images of reference files
+    "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
+  }
 }
