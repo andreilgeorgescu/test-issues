@@ -21,9 +21,18 @@ lint:
     - yamllint@1.35.1
 actions:
   enabled:
-    - git-lfs
+    - git-lfs2
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
   disabled:
+    - git-lfs
     - trunk-announce
     - trunk-upgrade-available
+  definitions:
+  definitions:
+    - id: git-lfs2
+      display_name: Git LFS
+      description: Git LFS hooks
+      run: git lfs "${hook}" ${@}
+      triggers:
+        - git_hooks: [post-checkout, post-commit, post-merge, pre-push]
