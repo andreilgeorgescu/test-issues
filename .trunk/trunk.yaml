@@ -29,7 +29,6 @@ actions:
     - trunk-announce
     - trunk-upgrade-available
   definitions:
-  definitions:
     - id: git-lfs2
       display_name: Git LFS
       description: Git LFS hooks
