@@ -21,7 +21,7 @@ lint:
     - yamllint@1.35.1
 actions:
   enabled:
-    - git-lfs
+    # - git-lfs
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
   disabled:
